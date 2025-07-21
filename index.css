@@ -1,107 +1,108 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Source Sans 3', sans-serif;    
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 .container {
-    width: 375px;
-    margin: 0 auto;
-    background: #f2f2f2;
+  width: 375px;
+  margin: 0 auto;
+  background: #f2f2f2;
 }
 
-header, section {
-    background: #fff;
+header,
+section {
+  background: #fff;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
-header {    
-    justify-content: space-between; 
-    border-bottom: 1px solid #c6c6c6;
-    padding-top: 5px;    
-    padding-bottom: 5px;  
+header {
+  justify-content: space-between;
+  border-bottom: 2px solid #ff13f0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .logo {
-    width: 127px;
-    padding-left: 16px;
+  width: 127px;
+  padding-left: 16px;
 }
 
 .avatar {
-    width: 34px;
-    border-radius: 50%;   
+  width: 34px;
+  border-radius: 50%;
 }
 
-.user-avatar {    
-    padding: 13px;
+.user-avatar {
+  padding: 13px;
 }
 
 section {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
-.section-header {    
-    padding: 22px 0 10px 10px;    
+.section-header {
+  padding: 22px 0 10px 10px;
 }
 
 .section-header div {
-    padding-left: 9px; 
+  padding-left: 9px;
 }
 
 .section-header h2,
 .likes,
 .comment {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .section-header h2,
 .comment span,
 .likes {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .section-header h2,
-.section-header p {           
-    margin: 0;
+.section-header p {
+  margin: 0;
 }
 
 .section-header h2 {
-    padding: 2px 0;      
+  padding: 2px 0;
 }
 
 .section-header p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .section-main-img {
-    width: 100%;    
+  width: 100%;
 }
 
 .section-footer {
-    padding-left: 10px;
-    padding-bottom: 16px;
+  padding-left: 10px;
+  padding-bottom: 16px;
 }
 
-.icons {    
-    width: 100px;   
-    gap: 8px;
-    margin-top: 10px;   
-    user-select: none; 
+.icons {
+  width: 100px;
+  gap: 8px;
+  margin-top: 10px;
+  user-select: none;
 }
 
 .icons img {
-    width: 22px;
+  width: 22px;
 }
 
-.icons img:hover {    
-   opacity: 0.5;
-   cursor: pointer;
+.icons img:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
-.likes {    
-    margin: 12px 0;  
+.likes {
+  margin: 12px 0;
 }
-
